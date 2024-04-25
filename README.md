@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Task Scheduler
+Task Scheduler is a web application designed to help users manage their tasks efficiently. It provides a user-friendly interface where users can input tasks along with their priorities and deadlines. The application allows users to mark tasks as completed and organizes them into upcoming and completed tasks lists.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Features
+Task Management: Users can add tasks by entering task names, priorities, and deadlines.
+Priority Selection: Users can select the priority of each task from options such as "Top Priority," "Middle Priority," or "Less Priority."
+Deadline Management: Users can set deadlines for their tasks using a date picker.
+Task Completion: Users can mark tasks as completed, which moves them to the completed tasks list.
+Upcoming Tasks List: Displays a list of tasks that are yet to be completed, sorted by priority and deadline.
+Completed Tasks List: Displays a list of tasks that have been marked as completed.
+Technologies Used
+React: Front-end library for building user interfaces.
+useState: React hook for managing state within functional components.
+useEffect: React hook for handling side effects in functional components.
+CSS: Styling for the user interface.
+JavaScript: Programming language used for logic and event handling.
+HTML: Markup language for structuring the web page.
+How to Use
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install dependencies using npm install.
+Start the development server using npm start.
+Access the application in your web browser at http://localhost:3000.
+Screenshots
+![screenshottaskscheduler](https://github.com/Jnefaa/TaskScheduler/assets/95139692/64c081a8-0d56-42ac-88a2-b73865b53d5e)
+Nefaa Jmal
